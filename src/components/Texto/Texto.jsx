@@ -1,14 +1,17 @@
 import { useState } from 'react'
-import '/src/components/onboarding/Onboarding.css'
+import './Texto.css'
 
 
-const Onboarding = () => {
+const Texto = () => {
     const [count, setCount] = useState(0)
 
     return(
-    <div className='Onboarding'>
-        
-        <h1 style={{fontSize: '40px', marginTop:'8%'}}>          
+    <div className='Texto'>
+        <h1 style={{fontSize: '40px', marginTop:'8%'}}>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
             We don’t store your
             <br></br>
             personal information. Ever.
@@ -25,4 +28,4 @@ const Onboarding = () => {
     )
 }
 
-export default Onboarding
+export default Texto

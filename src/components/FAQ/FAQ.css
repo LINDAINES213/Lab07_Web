@@ -70,6 +70,7 @@ div{
     font-size: 21px;
     line-height: 25px;
     font-weight: 545;
+    margin-left: 10px;
 }
 
 header{
@@ -86,5 +87,8 @@ h3{
     text-align: left;
 }
 
-
-
+.faq_section button {
+    background: #678FFF !important;
+    color: white;
+    padding: 12px 20px 10px;
+}

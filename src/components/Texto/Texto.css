@@ -3,28 +3,27 @@
     --default-border-radius: 4px;
 }
 
-h1 {
+.Texto h1 {
     font-family: "Montserrat", sans-serif;
     color: white;   
 }
 
-p {
+.Texto p {
     font-family: "Montserrat", sans-serif;
     color: white;
     line-height: 30px;
     font-size: 18px;
 }
 
-.Onboarding {
+.Texto {
     position: absolute;
     top: 68%;
     left: 0;
     margin: auto auto;
     height: 100%;
     width: 100%;
-    background-color: #58b792;
     background-position: center;
     text-align: center;
     line-height: 10px;
-    z-index: -1;
+    z-index: 10;
 }

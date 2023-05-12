@@ -11,8 +11,8 @@ const SocialMedia = () => {
     return (
         <div className="social-media">
             <button className="socialButton" onClick={toggleDropdown}>
-                <img src='src/assets/loudspeaker.png' className='horn'/>
-                <img src='src/assets/flechaAbajo.png' className='horn'/>
+                <img src='src/assets/loudspeaker.png' style={{filter: 'invert(1)', right:'-370px', top: '-45px'}} className='horn'/>
+                <img src='src/assets/flechaAbajo.png' style={{filter: 'invert(1)', right:'-370px', top: '-45px', width: '10px', height: '10px'}} className='horn'/>
             </button>
             {isDropdownOpen && (
                 <div className="social-media-dropdown">

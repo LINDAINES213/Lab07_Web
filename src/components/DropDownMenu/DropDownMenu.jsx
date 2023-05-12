@@ -13,7 +13,7 @@ const DropDownMenu = () => {
     return (
         <div className="dropdown-menu">
             <button className="menu-button" onClick={toggleDropdown}>
-                <img src='src/assets/more.png' className='hamburger'/>
+                <img src='src/assets/more.png' style={{filter: 'invert(1)', right:'-355px', top: '-45px'}} className='hamburger'/>
             </button>
             <div className={dropdownClasses}>
                 <ul className="dropdown-list">

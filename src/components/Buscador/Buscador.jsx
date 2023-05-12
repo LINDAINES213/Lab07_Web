@@ -10,7 +10,7 @@ const SabeMas = ()=>{
                 <div className='pico'></div>
                 <div className='cuadradito'>
                     <span>
-                    Aprenda mas
+                    Learn more
                     </span>
                     
                 </div>

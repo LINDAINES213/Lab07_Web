@@ -9,7 +9,6 @@ import Onboarding from './components/onboarding/Onboarding'
 import FAQ from './components/FAQ/FAQ'
 import DropDownMenu from "./components/DropDownMenu/DropDownMenu.jsx";
 import SocialMedia from "./components/SocialMedia/SocialMedia.jsx";
-import Texto from "./components/Texto/Texto.jsx";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,9 +22,6 @@ function App() {
       </header>
       <div>
       <Buscador></Buscador>
-      </div>
-      <div>
-        <Texto></Texto>
       </div>
       <div>
       <div className='fondo'>

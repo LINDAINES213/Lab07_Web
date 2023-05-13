@@ -4,7 +4,7 @@ import './Onboarding.css'
 const Onboarding = () => {
   return (
     <div className="Onboarding">
-      <h1 style={{ fontSize: '40px', marginTop: '8%' }}>
+      <h1 style={{ fontSize: '40px', marginTop: '20%' }}>
         We don’t store your
         <br></br>
         personal information. Ever.
